@@ -1,0 +1,16 @@
+{
+  "name": "typescript-tutorial3",
+  "version": "1.0.0",
+  "description": "Typescriptのチュートリアルを頑張りたい",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mika211",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
