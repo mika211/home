@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Typescriptのチュートリアルを頑張りたい",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "node --watch --import tsx src/index.ts"
   },
   "author": "mika211",
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
+    "@types/node": "^22.5.4",
     "tsx": "^4.19.0",
     "typescript": "^5.5.4"
   }
