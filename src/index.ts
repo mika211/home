@@ -1,1 +1,3 @@
-console.log('test nya test');
+const message: string = 'Hello world!';
+
+console.log(message);
